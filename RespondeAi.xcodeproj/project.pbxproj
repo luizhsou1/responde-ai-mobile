@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B43374D66756325317C4010 /* Pods_RespondeAiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D6EF0597C46D9D215851DE /* Pods_RespondeAiTests.framework */; };
 		2574CAB524AA9C0800BE7165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574CAB424AA9C0800BE7165 /* AppDelegate.swift */; };
 		2574CAB724AA9C0800BE7165 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574CAB624AA9C0800BE7165 /* SceneDelegate.swift */; };
 		2574CAB924AA9C0800BE7165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574CAB824AA9C0800BE7165 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		2574CAC124AA9C0900BE7165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2574CAC024AA9C0900BE7165 /* Assets.xcassets */; };
 		2574CAC424AA9C0900BE7165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2574CAC224AA9C0900BE7165 /* LaunchScreen.storyboard */; };
 		2574CACF24AA9C0A00BE7165 /* RespondeAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2574CACE24AA9C0A00BE7165 /* RespondeAiTests.swift */; };
+		2574CADA24AA9DC600BE7165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2574CAD924AA9DC600BE7165 /* GoogleService-Info.plist */; };
+		E33FDBB80FDBC505A0D8BBC5 /* Pods_RespondeAi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FAAF7B53B09C08FF874B8F /* Pods_RespondeAi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,14 @@
 		2574CACA24AA9C0A00BE7165 /* RespondeAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RespondeAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2574CACE24AA9C0A00BE7165 /* RespondeAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondeAiTests.swift; sourceTree = "<group>"; };
 		2574CAD024AA9C0A00BE7165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2574CAD924AA9DC600BE7165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2574CADB24AAA4FE00BE7165 /* RespondeAi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RespondeAi.entitlements; sourceTree = "<group>"; };
+		6DB191F41B2A76280C09131B /* Pods-RespondeAiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespondeAiTests.release.xcconfig"; path = "Target Support Files/Pods-RespondeAiTests/Pods-RespondeAiTests.release.xcconfig"; sourceTree = "<group>"; };
+		83FAAF7B53B09C08FF874B8F /* Pods_RespondeAi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RespondeAi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1919F752109ADE54FD5C52 /* Pods-RespondeAiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespondeAiTests.debug.xcconfig"; path = "Target Support Files/Pods-RespondeAiTests/Pods-RespondeAiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4326F4D11190657D32D008 /* Pods-RespondeAi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespondeAi.debug.xcconfig"; path = "Target Support Files/Pods-RespondeAi/Pods-RespondeAi.debug.xcconfig"; sourceTree = "<group>"; };
+		DE2D625ED248BEB38C4E5AF9 /* Pods-RespondeAi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespondeAi.release.xcconfig"; path = "Target Support Files/Pods-RespondeAi/Pods-RespondeAi.release.xcconfig"; sourceTree = "<group>"; };
+		F1D6EF0597C46D9D215851DE /* Pods_RespondeAiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RespondeAiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33FDBB80FDBC505A0D8BBC5 /* Pods_RespondeAi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B43374D66756325317C4010 /* Pods_RespondeAiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,8 @@
 				2574CAB324AA9C0800BE7165 /* RespondeAi */,
 				2574CACD24AA9C0A00BE7165 /* RespondeAiTests */,
 				2574CAB224AA9C0800BE7165 /* Products */,
+				C84EC2F003FD7B9413D158A2 /* Pods */,
+				FE0B51B064004F7276A4CBEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +96,7 @@
 		2574CAB324AA9C0800BE7165 /* RespondeAi */ = {
 			isa = PBXGroup;
 			children = (
+				2574CADB24AAA4FE00BE7165 /* RespondeAi.entitlements */,
 				2574CAB424AA9C0800BE7165 /* AppDelegate.swift */,
 				2574CAB624AA9C0800BE7165 /* SceneDelegate.swift */,
 				2574CAB824AA9C0800BE7165 /* ViewController.swift */,
@@ -88,6 +104,7 @@
 				2574CAC024AA9C0900BE7165 /* Assets.xcassets */,
 				2574CAC224AA9C0900BE7165 /* LaunchScreen.storyboard */,
 				2574CAC524AA9C0900BE7165 /* Info.plist */,
+				2574CAD924AA9DC600BE7165 /* GoogleService-Info.plist */,
 				2574CABD24AA9C0800BE7165 /* RespondeAi.xcdatamodeld */,
 			);
 			path = RespondeAi;
@@ -102,6 +119,26 @@
 			path = RespondeAiTests;
 			sourceTree = "<group>";
 		};
+		C84EC2F003FD7B9413D158A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4326F4D11190657D32D008 /* Pods-RespondeAi.debug.xcconfig */,
+				DE2D625ED248BEB38C4E5AF9 /* Pods-RespondeAi.release.xcconfig */,
+				AE1919F752109ADE54FD5C52 /* Pods-RespondeAiTests.debug.xcconfig */,
+				6DB191F41B2A76280C09131B /* Pods-RespondeAiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE0B51B064004F7276A4CBEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83FAAF7B53B09C08FF874B8F /* Pods_RespondeAi.framework */,
+				F1D6EF0597C46D9D215851DE /* Pods_RespondeAiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2574CAD324AA9C0A00BE7165 /* Build configuration list for PBXNativeTarget "RespondeAi" */;
 			buildPhases = (
+				EF55FF5A8FA61F639E2B0077 /* [CP] Check Pods Manifest.lock */,
 				2574CAAD24AA9C0800BE7165 /* Sources */,
 				2574CAAE24AA9C0800BE7165 /* Frameworks */,
 				2574CAAF24AA9C0800BE7165 /* Resources */,
+				A382971DBA679529F7431686 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2574CAD624AA9C0A00BE7165 /* Build configuration list for PBXNativeTarget "RespondeAiTests" */;
 			buildPhases = (
+				FBEFA645EF39637FC1CCB0B6 /* [CP] Check Pods Manifest.lock */,
 				2574CAC624AA9C0A00BE7165 /* Sources */,
 				2574CAC724AA9C0A00BE7165 /* Frameworks */,
 				2574CAC824AA9C0A00BE7165 /* Resources */,
@@ -184,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2574CAC424AA9C0900BE7165 /* LaunchScreen.storyboard in Resources */,
+				2574CADA24AA9DC600BE7165 /* GoogleService-Info.plist in Resources */,
 				2574CAC124AA9C0900BE7165 /* Assets.xcassets in Resources */,
 				2574CABC24AA9C0800BE7165 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +238,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A382971DBA679529F7431686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RespondeAi/Pods-RespondeAi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RespondeAi/Pods-RespondeAi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RespondeAi/Pods-RespondeAi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF55FF5A8FA61F639E2B0077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RespondeAi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEFA645EF39637FC1CCB0B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RespondeAiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2574CAAD24AA9C0800BE7165 /* Sources */ = {
@@ -364,8 +469,10 @@
 		};
 		2574CAD424AA9C0A00BE7165 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4326F4D11190657D32D008 /* Pods-RespondeAi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RespondeAi/RespondeAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LRX5QFWGGG;
 				INFOPLIST_FILE = RespondeAi/Info.plist;
@@ -382,8 +489,10 @@
 		};
 		2574CAD524AA9C0A00BE7165 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2D625ED248BEB38C4E5AF9 /* Pods-RespondeAi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RespondeAi/RespondeAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LRX5QFWGGG;
 				INFOPLIST_FILE = RespondeAi/Info.plist;
@@ -400,6 +509,7 @@
 		};
 		2574CAD724AA9C0A00BE7165 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1919F752109ADE54FD5C52 /* Pods-RespondeAiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +532,7 @@
 		};
 		2574CAD824AA9C0A00BE7165 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB191F41B2A76280C09131B /* Pods-RespondeAiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>709696208226-hhptegoioplf654jllo3tmhr8id3mhub.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.709696208226-hhptegoioplf654jllo3tmhr8id3mhub</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtxq6tIo1Y4ssV5xpefNV-Mzhwz070Onc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>709696208226</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.zennit.respondeai</string>
+	<key>PROJECT_ID</key>
+	<string>responde-ai-cloud</string>
+	<key>STORAGE_BUCKET</key>
+	<string>responde-ai-cloud.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:709696208226:ios:43b2665b8e47b2ef8a403b</string>
+	<key>DATABASE_URL</key>
+	<string>https://responde-ai-cloud.firebaseio.com</string>
+</dict>
+</plist>
